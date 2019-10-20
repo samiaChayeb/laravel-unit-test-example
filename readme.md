@@ -25,6 +25,8 @@ PHPUnit is used to write the unit tests, to run the tests run the following comm
 ```
 >./vendor/bin/phpunit
 ```
+## For  Windows
+"./vendor/bin/phpunit"
 
 ## Docker with virtual host
 
