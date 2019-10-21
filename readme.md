@@ -26,7 +26,8 @@ PHPUnit is used to write the unit tests, to run the tests run the following comm
 >./vendor/bin/phpunit
 ```
 ## For  Windows
-"./vendor/bin/phpunit"
+
+"./vendor/bin/phpunit"  --coverage-clover=coverage-report.clover --log-junit=test-report.xml
 
 ## Docker with virtual host
 

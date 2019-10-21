@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Application Test Suite" tests="14" assertions="24" failures="0" errors="0" time="1.117187">
+    <testsuite name="Test\Integrated\ExampleTest" file="C:\MACROSOFT\PLB\USBSonarQube\TP\laravel-unit-test-example\tests\Integrated\ExampleTest.php" tests="10" assertions="20" failures="0" errors="0" time="1.101761">
+      <testcase name="testBasicExample" class="Test\Integrated\ExampleTest" file="C:\MACROSOFT\PLB\USBSonarQube\TP\laravel-unit-test-example\tests\Integrated\ExampleTest.php" line="17" assertions="2" time="0.361255"/>
+      <testsuite name="Test\Integrated\ExampleTest::testApplicationUriResponses" tests="9" assertions="18" failures="0" errors="0" time="0.740506">
+        <testcase name="testApplicationUriResponses with data set #0" assertions="2" time="0.078471">
+          <system-out>checking URI : / - to be 200 - &#13;
+</system-out>
+        </testcase>
+        <testcase name="testApplicationUriResponses with data set #1" assertions="2" time="0.088419">
+          <system-out>checking URI : /place/CreditCard - to be 200 - &#13;
+</system-out>
+        </testcase>
+        <testcase name="testApplicationUriResponses with data set #2" assertions="2" time="0.080002">
+          <system-out>checking URI : /place/CreditCard/me@mydomain.com - to be 200 - &#13;
+</system-out>
+        </testcase>
+        <testcase name="testApplicationUriResponses with data set #3" assertions="2" time="0.080871">
+          <system-out>checking URI : /place/Cash - to be 200 - &#13;
+</system-out>
+        </testcase>
+        <testcase name="testApplicationUriResponses with data set #4" assertions="2" time="0.081060">
+          <system-out>checking URI : /place/Cash/me@mydomain.com - to be 200 - &#13;
+</system-out>
+        </testcase>
+        <testcase name="testApplicationUriResponses with data set #5" assertions="2" time="0.079728">
+          <system-out>checking URI : /place/PayPal/myName@gmail.com - to be 200 - &#13;
+</system-out>
+        </testcase>
+        <testcase name="testApplicationUriResponses with data set #6" assertions="2" time="0.080485">
+          <system-out>checking URI : /place/PayPal/me@mydomain.com - to be 200 - &#13;
+</system-out>
+        </testcase>
+        <testcase name="testApplicationUriResponses with data set #7" assertions="2" time="0.080186">
+          <system-out>checking URI : /place/iDeal/me@mydomain.com - to be 200 - &#13;
+</system-out>
+        </testcase>
+        <testcase name="testApplicationUriResponses with data set #8" assertions="2" time="0.091284">
+          <system-out>checking URI : /non-existing - to be 404 - &#13;
+</system-out>
+        </testcase>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Test\Services\CheckoutTest" file="C:\MACROSOFT\PLB\USBSonarQube\TP\laravel-unit-test-example\tests\Services\CheckoutTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.015426">
+      <testsuite name="Test\Services\CheckoutTest::testCalculateTotal" tests="4" assertions="4" failures="0" errors="0" time="0.015426">
+        <testcase name="testCalculateTotal with data set #0" assertions="1" time="0.000171"/>
+        <testcase name="testCalculateTotal with data set #1" assertions="1" time="0.000107"/>
+        <testcase name="testCalculateTotal with data set #2" assertions="1" time="0.000111"/>
+        <testcase name="testCalculateTotal with data set #3" assertions="1" time="0.015037"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
