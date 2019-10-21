@@ -10,5 +10,5 @@ install: composer install --prefer-dist
 
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-  - vendor/bin/phpunit -c phpunit.xml.dist --coverage-clover=coverage-report.clover --log-junit=test-report.xml
+  - vendor/bin/phpunit  --coverage-clover=coverage-report.clover --log-junit=test-report.xml
   - sonar-scanner
