@@ -6,7 +6,7 @@ addons:
     token:
       secure: "6fb23963c7d0a6c8f22df225d36a45a3f9c6d6ae" # encrypted value of your token
 
-install: composer update --no-interaction --no-suggest --no-progress
+install: composer update
 
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
