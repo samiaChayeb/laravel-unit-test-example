@@ -4,7 +4,7 @@ addons:
   sonarcloud:
     organization: "sanogotech"
     token:
-      secure: "6fb23963c7d0a6c8f22df225d36a45a3f9c6d6ae" # encrypted value of your token
+      secure: "5fac9fecb4d26f94c40ac890d02357ab039ed104" # encrypted value of your token
 
 install: composer install --prefer-dist
 
